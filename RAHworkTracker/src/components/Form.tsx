@@ -3,7 +3,7 @@ import RecordModel from './RecordModel';
 import "../App.css";
 
 function Form() {
-    const [records, setRecords] = useState([]);
+    const [records, setRecords] = useState<any[]>([]);
     const [form, setForm] = useState({date: '', km: ''});
 
     function parseDate(date: string) {
