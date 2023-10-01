@@ -1,10 +1,10 @@
-class RecordModel {
-    id: string;
+class Records {
+    date: string;
     km:string
     constructor(date:string, km:string) {
-        this.id = date;
+        this.date = date;
         this.km = km;
     }
 }
 
-export default RecordModel;
+export default Records;
